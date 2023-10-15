@@ -1,3 +1,4 @@
+![logo](https://github.com/Pavan048/Pavan048/blob/main/Black%20Elegant%20Personal%20LinkedIn%20Banner.jpg)
 <h1 align="center">Hi 👋, I'm Sajjarao Pavan Krishna</h1>
 <h3 align="center">Exploring the MERN Stack | Turning Curiosity into Expertise</h3>
 <img align="right" alt="coding" width="400" src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif">
