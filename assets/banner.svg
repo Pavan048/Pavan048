@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="100%" height="100%">
+  <defs>
+    <!-- Background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080A0F"/>
+      <stop offset="100%" stop-color="#0F141F"/>
+    </linearGradient>
+
+    <!-- Subtle Accent Glow -->
+    <radialGradient id="glow" cx="85%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Hairline Accent -->
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#080A0F"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=JetBrains+Mono:wght@500&amp;display=swap');
+    .kicker { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 500; letter-spacing: 3.5px; fill: #38BDF8; text-transform: uppercase; }
+    .name { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-size: 42px; font-weight: 700; fill: #FFFFFF; letter-spacing: -0.5px; }
+    .tagline { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-size: 16px; font-weight: 400; fill: #94A3B8; letter-spacing: -0.2px; }
+    .stack { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 500; fill: #64748B; letter-spacing: 0.5px; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="240" fill="url(#bg)"/>
+  <rect width="1200" height="240" fill="url(#glow)"/>
+
+  <!-- Top hairline border -->
+  <rect x="0" y="0" width="1200" height="1" fill="#1E293B"/>
+  <rect x="80" y="0" width="180" height="2" fill="url(#accent)"/>
+
+  <!-- Left Content -->
+  <text x="80" y="58" class="kicker">AI ENGINEER  ·  EXTO</text>
+  <text x="80" y="112" class="name">Sajjarao Pavan Krishna</text>
+  <text x="80" y="148" class="tagline">Multi-Agent Systems  ·  Production RAG  ·  Backend Infrastructure</text>
+
+  <!-- Divider -->
+  <line x1="80" y1="178" x2="520" y2="178" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Tech row -->
+  <text x="80" y="204" class="stack">Python  ·  Go  ·  LangGraph  ·  Qdrant  ·  FastAPI  ·  Redis  ·  MCP</text>
+
+  <!-- Clean Minimal Graphic on Right -->
+  <g transform="translate(1000, 120)" opacity="0.75">
+    <circle cx="-90" cy="0" r="3" fill="#64748B"/>
+    <line x1="-90" y1="0" x2="-20" y2="-30" stroke="#334155" stroke-width="1.2"/>
+    <line x1="-90" y1="0" x2="-20" y2="30" stroke="#334155" stroke-width="1.2"/>
+    
+    <circle cx="-20" cy="-30" r="4.5" fill="#0F141F" stroke="#38BDF8" stroke-width="1.5"/>
+    <circle cx="-20" cy="30" r="4.5" fill="#0F141F" stroke="#818CF8" stroke-width="1.5"/>
+
+    <line x1="-20" y1="-30" x2="50" y2="0" stroke="#38BDF8" stroke-opacity="0.5" stroke-width="1.2"/>
+    <line x1="-20" y1="30" x2="50" y2="0" stroke="#818CF8" stroke-opacity="0.5" stroke-width="1.2"/>
+
+    <circle cx="50" cy="0" r="5" fill="#38BDF8"/>
+  </g>
+</svg>
