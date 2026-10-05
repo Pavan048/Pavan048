@@ -14,7 +14,7 @@
 
 AI Engineer (SDE 1) at **Exto**, building multi-agent systems and production RAG.
 
-*Day-to-day work lives in private enterprise repos. This space showcases open-source architectures, experiments, and prototypes.*
+*Day-to-day work lives in private enterprise repos. This space showcases open-source architectures, experiments, and field notes.*
 
 ---
 
@@ -33,7 +33,8 @@ AI Engineer (SDE 1) at **Exto**, building multi-agent systems and production RAG
 
 ---
 
-### Projects
+### Projects & Writing
 
 - **[CITE-RAG](https://github.com/Pavan048/CITE-RAG)** — Enterprise RAG engine with autonomous multi-hop reasoning, hierarchical chunk expansion, and enforced citations.
 - **Multi-Agent Assistant** — Task routing across specialized sub-agents with two-tier memory (Redis + Qdrant) and MCP tool interfaces.
+- **[My-Field-Notes](https://github.com/Pavan048/My-Field-Notes)** — Personal engineering archive covering open-source teardowns, system design (HLD/LLD), and DevOps.
